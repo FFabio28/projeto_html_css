@@ -2,11 +2,9 @@ body{
     margin: 0px;
 }
 #banner{
-    background-image: url(imagens/header.png);
-   
-    display: flex;
-    align-items: center;
-    background-size: 80% 80%;
+    background-image: url("imagens/header.png");
+    background-size: cover;
+    background-position: center;
 }
 #formulario{
     width: 400px;
