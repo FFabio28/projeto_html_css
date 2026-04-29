@@ -3,7 +3,7 @@ body{
 }
 #banner{
     background-image: url(imagens/header.png);
-    height: 45vw;
+   
     display: flex;
     align-items: center;
     background-size: 80% 80%;
