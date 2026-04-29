@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 #banner{
-    background-image: url(/imagens/header.png);
+    background-image: url(imagens/header.png);
     height: 45vw;
     display: flex;
     align-items: center;
