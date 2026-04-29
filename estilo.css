@@ -3,12 +3,9 @@ body{
 }
 #banner{
  background-image: url("imagens/header.png");
-    height: 45vw;
-    background-size: cover; /* Faz a imagem ocupar 100% da largura disponível */
-    background-position: center right; /* Mantém o foco no lado direito (onde está a moça) */
-    background-repeat: no-repeat; /* Impede a repetição que aparece na sua imagem */
-    display: flex;
-    align-items: center;
+ background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 #formulario{
     width: 400px;
