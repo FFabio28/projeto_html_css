@@ -3,7 +3,7 @@ body{
 }
 #banner{
     background-image: url("imagens/header.png");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 #formulario{
