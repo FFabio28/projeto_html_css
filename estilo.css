@@ -6,6 +6,12 @@ body{
  background-size: 100% auto; 
     background-repeat: no-repeat;
     background-position: top center;
+    height: 100vh;                  /* 100vh faz o banner ocupar a altura toda da tela */
+    /* OU mantenha seu height: 45vw; se quiser que ele seja proporcional à largura */
+    
+    display: flex;
+    align-items: center;
+    padding-left: 5%;               /* Afasta o texto da borda esquerda */
 }
 #formulario{
     width: 400px;
