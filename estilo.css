@@ -6,7 +6,7 @@ body{
     height: 45vw;
     display: flex;
     align-items: center;
-    background-size: cover;
+    background-size: 80% 80%;
 }
 #formulario{
     width: 400px;
