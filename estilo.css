@@ -2,9 +2,13 @@ body{
     margin: 0px;
 }
 #banner{
-    background-image: url("imagens/header.png");
-    background-size: 100% 100%;
-    background-position: center;
+ background-image: url("imagens/header.png");
+    height: 45vw;
+    background-size: cover; /* Faz a imagem ocupar 100% da largura disponível */
+    background-position: center right; /* Mantém o foco no lado direito (onde está a moça) */
+    background-repeat: no-repeat; /* Impede a repetição que aparece na sua imagem */
+    display: flex;
+    align-items: center;
 }
 #formulario{
     width: 400px;
